@@ -1,8 +1,8 @@
 {
   "folders": [
     { "name": "course-project-workspace (root)", "path": "." },
-    { "path": "../course-knowledge-base" },
-    { "path": "../course-specifications-repo" },
+    { "path": "../quic-notes-knowledge-base" },
+    { "path": "../quic-notes-specifications-repo" },
 
     { "path": "../quic-notes" }
   ]

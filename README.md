@@ -7,8 +7,8 @@ It is one of three course repos, cloned side by side:
 | Repo | Holds |
 |---|---|
 | **`course-project-workspace`** (this one) | `project.toml`, `features.toml`, the A.I.D.E. install, your `.code-workspace` |
-| [`course-knowledge-base`](https://github.com/somanarayanan-em/quic-notes-knowledge-base) | `ARCHITECTURE.md`, `components/`, and the `source-docs/` deposits reverse engineering produces |
-| [`course-specifications-repo`](https://github.com/somanarayanan-em/quic-notes-specifications-repo) | The requirements, design, implementation, and quality packages |
+| [`quic-notes-knowledge-base`](https://github.com/somanarayanan-em/quic-notes-knowledge-base) | `ARCHITECTURE.md`, `components/`, and the `source-docs/` deposits reverse engineering produces |
+| [`quic-notes-specifications-repo`](https://github.com/somanarayanan-em/quic-notes-specifications-repo) | The requirements, design, implementation, and quality packages |
 
 The application you will be working on, **ElectricWealthAIDE**, is cloned as a fourth sibling. Nothing is nested inside anything else.
 
@@ -48,12 +48,12 @@ All of that is meant to be committed. It is the state that lets you close your l
 
 ```toml
 [project.paths]
-requirements_package   = "{project-root}/../course-specifications-repo/requirements"
-design_package         = "{project-root}/../course-specifications-repo/design"
-implementation_package = "{project-root}/../course-specifications-repo/implementation"
-quality_package        = "{project-root}/../course-specifications-repo/quality"
+requirements_package   = "{project-root}/../quic-notes-specifications-repo/requirements"
+design_package         = "{project-root}/../quic-notes-specifications-repo/design"
+implementation_package = "{project-root}/../quic-notes-specifications-repo/implementation"
+quality_package        = "{project-root}/../quic-notes-specifications-repo/quality"
 
-knowledge_base_path    = "{project-root}/../course-knowledge-base"
+knowledge_base_path    = "{project-root}/../quic-notes-knowledge-base"
 ```
 
 ## This repo should otherwise be empty
@@ -66,4 +66,4 @@ If you clone it and find someone else's work already on `main`, say so rather th
 
 `.gitignore` excludes the things that are personal to your machine rather than part of your work: `project.user.toml` (your role and your active feature), IDE directories, OS noise, and the knowledge-base drift and coverage reports.
 
-It also excludes `course-knowledge-base/`, `course-specifications-repo/`, and `ElectricWealthAIDE/`. Those lines only matter if you are on IntelliJ and following the nested layout in the setup guide's appendix, where the other three repos are cloned *inside* this one. On the standard multi-root layout they are siblings and the lines do nothing — but leave them in either way, because without them Git records nested checkouts as gitlinks and `git status` becomes unusable.
+It also excludes `quic-notes-knowledge-base/`, `quic-notes-specifications-repo/`, and `ElectricWealthAIDE/`. Those lines only matter if you are on IntelliJ and following the nested layout in the setup guide's appendix, where the other three repos are cloned *inside* this one. On the standard multi-root layout they are siblings and the lines do nothing — but leave them in either way, because without them Git records nested checkouts as gitlinks and `git status` becomes unusable.

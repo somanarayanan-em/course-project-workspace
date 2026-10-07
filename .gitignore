@@ -3,8 +3,8 @@ project.user.toml
 
 # Nested clones, for the IntelliJ layout in the setup guide's appendix.
 # Harmless on the standard multi-root layout, where these are siblings instead.
-course-knowledge-base/
-course-specifications-repo/
+quic-notes-knowledge-base/
+quic-notes-specifications-repo/
 ElectricWealthAIDE/
 
 # Knowledge-base report artifacts — regenerated on demand
