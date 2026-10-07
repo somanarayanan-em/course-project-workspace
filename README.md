@@ -7,8 +7,8 @@ It is one of three course repos, cloned side by side:
 | Repo | Holds |
 |---|---|
 | **`course-project-workspace`** (this one) | `project.toml`, `features.toml`, the A.I.D.E. install, your `.code-workspace` |
-| [`course-knowledge-base`](https://dev.azure.com/IntelliwareDev/AI_Knowledge_Repo/_git/course-knowledge-base) | `ARCHITECTURE.md`, `components/`, and the `source-docs/` deposits reverse engineering produces |
-| [`course-specifications-repo`](https://dev.azure.com/IntelliwareDev/AI_Knowledge_Repo/_git/course-specifications-repo) | The requirements, design, implementation, and quality packages |
+| [`course-knowledge-base`](https://github.com/somanarayanan-em/quic-notes-knowledge-base) | `ARCHITECTURE.md`, `components/`, and the `source-docs/` deposits reverse engineering produces |
+| [`course-specifications-repo`](https://github.com/somanarayanan-em/quic-notes-specifications-repo) | The requirements, design, implementation, and quality packages |
 
 The application you will be working on, **ElectricWealthAIDE**, is cloned as a fourth sibling. Nothing is nested inside anything else.
 
@@ -23,7 +23,7 @@ So there is no pull request to raise, no approval to wait for, and nobody review
 Everything you do during the session happens on a branch of your own.
 
 ```bash
-git clone git@ssh.dev.azure.com:v3/IntelliwareDev/AI_Knowledge_Repo/course-project-workspace
+git clone git@github.com:somanarayanan-em/course-project-workspace.git
 cd course-project-workspace
 git checkout -b <your-unique-branch-name>
 ```
